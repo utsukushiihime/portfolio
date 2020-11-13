@@ -109,6 +109,11 @@
               <div class="nav-menu menu-with-icons">
                 <ul>
                   <li><a class="home" href="index.html">Home</a></li>
+                  <li>
+                    <a class="return" href="index.html#portfolio"
+                      >Back To Portfolio</a
+                    >
+                  </li>
                   <li><a class="search-toggle">Search</a></li>
                 </ul>
               </div>
@@ -143,136 +148,84 @@
             <div id="primary" class="content-area">
               <!-- site-content -->
               <div id="content" class="site-content" role="main">
-                <!-- .page-single -->
-                <div class="page-single page-layout">
+                <!-- .portfolio-single -->
+                <div class="portfolio-single page-layout">
                   <!-- .hentry -->
-                  <article class="page hentry">
+                  <article class="hentry">
                     <!-- .entry-header -->
                     <header class="entry-header">
-                      <h1 class="entry-title">Portfolio</h1>
+                      <!-- PORTFOLIO-NAV -->
+                      <div class="portfolio-nav">
+                        <span class="prev ajax"
+                          ><a href="portfolio-wayfarer.html">Prev</a></span
+                        >
+                        <span class="back"
+                          ><a href="#/portfolio">Close</a></span
+                        >
+                        <span class="next ajax"
+                          ><a href="portfolio-macon-trouble.html">Next</a></span
+                        >
+                      </div>
+                      <!-- PORTFOLIO-NAV -->
+
+                      <!-- TITLE -->
+                      <h1 class="entry-title">Dream Team</h1>
+                      <!-- TITLE -->
                     </header>
                     <!-- .entry-header -->
 
                     <!-- .entry-content -->
                     <div class="entry-content">
-                      <!--FILTERS-->
-                      <ul id="filters" class="filters">
-                        <li class="current">
-                          <a href="#" data-filter="*">all</a>
-                        </li>
-                        <li>
-                          <a href="#" data-filter=".javascript">Javascript</a>
-                        </li>
-                        <li>
-                          <a href="#" data-filter=".react">React.js</a>
-                        </li>
-                        <li>
-                          <a href="#" data-filter=".node">Node.js</a>
-                        </li>
-                        <li>
-                          <a href="#" data-filter=".python">Python</a>
-                        </li>
-                      </ul>
-                      <!--FILTERS-->
+                      <!-- .portfolio-desc -->
+                      <div class="portfolio-desc">
+                        <p>
+                          App for finding team members for a specific project.
+                          The app will allow developers, writers, designers, and
+                          other freelancers and/or professionals to join the
+                          platform, invite and accept invites to join a team and
+                          participate in different projects to earn money.
+                        </p>
 
-                      <!-- PORTFOLIO -->
-                      <div
-                        class="portfolio-items media-grid masonry"
-                        data-layout="masonry"
-                        data-item-width="360"
-                      >
-                        <!-- portfolio-item -->
-                        <div class="media-cell javascript hentry">
-                          <div class="media-box">
-                            <img
-                              src="images/portfolio/01.jpg"
-                              alt="portfolio-post"
-                            />
-                            <div class="mask"></div>
-                            <a
-                              href="portfolio-macon-trouble.html"
-                              class="ajax"
-                            ></a>
-                          </div>
-
-                          <div class="media-cell-desc">
-                            <h3>Macon Trouble</h3>
-                            <p class="category">
-                              a Vanilla Javascript RPG Game
-                            </p>
-                          </div>
+                        <div class="portfolio-meta">
+                          <span><strong>Project Type</strong> Personal</span>
+                          <span><strong>Date</strong> 2020-11-02</span>
+                          <span
+                            ><strong>Technologies</strong>MySQL, React.js,
+                            Next.js, Apollo, GraphQL application</span
+                          >
                         </div>
-                        <!-- portfolio-item -->
-                        <!-- portfolio-item -->
-                        <div class="media-cell node hentry">
-                          <div class="media-box">
-                            <img
-                              src="images/portfolio/02.jpg"
-                              alt="portfolio-post"
-                            />
-                            <div class="mask"></div>
-                            <a
-                              href="portfolio-planet-pizza.html"
-                              class="ajax"
-                            ></a>
-                          </div>
 
-                          <div class="media-cell-desc">
-                            <h3>Planet Pizza</h3>
-                            <p class="category">a MEN Stack application</p>
-                          </div>
-                        </div>
-                        <!-- portfolio-item -->
-                        <!-- portfolio-item -->
-                        <div class="media-cell python hentry">
-                          <div class="media-box">
-                            <img
-                              src="images/portfolio/03.jpg"
-                              alt="portfolio-post"
-                            />
-                            <div class="mask"></div>
-                            <a href="portfolio-wayfarer.html" class="ajax"></a>
-                          </div>
-
-                          <div class="media-cell-desc">
-                            <h3>Wayfarer</h3>
-                            <p class="category">
-                              a Python, Django and Postgres application
-                            </p>
-                          </div>
-                        </div>
-                        <!-- portfolio-item -->
-                        <!-- portfolio-item -->
-                        <div class="media-cell react hentry">
-                          <div class="media-box">
-                            <img
-                              src="images/portfolio/04.jpg"
-                              alt="portfolio-post"
-                            />
-                            <div class="mask"></div>
-                            <a
-                              href="portfolio-dream-team.html"
-                              class="ajax"
-                            ></a>
-                          </div>
-
-                          <div class="media-cell-desc">
-                            <h3>Dream Team</h3>
-                            <p class="category">
-                              a MySQL, React.js, Next.js, Apollo, GraphQL
-                              application
-                            </p>
-                          </div>
-                        </div>
-                        <!-- portfolio-item -->
+                        <p>
+                          <a
+                            href="https://github.com/utsukushiihime/dreamteam"
+                            target="_blank"
+                            class="button primary"
+                            >VIEW ON GITHUB</a
+                          >
+                        </p>
                       </div>
-                      <!-- PORTFOLIO -->
+                      <!-- .portfolio-desc -->
+
+                      <p>
+                        <img
+                          src="images/portfolio/single/10.jpg"
+                          alt="project"
+                        />
+                        <img
+                          src="images/portfolio/single/11.jpg"
+                          alt="project"
+                        />
+                        <img
+                          src="images/portfolio/single/12.jpg"
+                          alt="project"
+                        />
+                      </p>
                     </div>
                     <!-- .entry-content -->
                   </article>
                   <!-- .hentry -->
                 </div>
-                <!-- .page-single -->
+                <!-- .portfolio-single -->
               </div>
               <!-- site-content -->
             </div>

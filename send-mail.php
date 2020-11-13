@@ -1,9 +1,9 @@
 <?php
 
 	// site owner
-	$site_name = 'Crystal McNeil Portfolio';
-	$sender_domain = 'mail.crystalmcneil.tech';
-	$to = 'crystal.mcneil@creativarian.com';
+	$site_name = 'CrystalMcNeil.Tech';
+	$sender_domain = 'crystalmcneil.tech';
+	$to = 'me@crystalmcneil.tech';
 	
 	// contact form fields
 	$name = trim( $_POST['name'] );
