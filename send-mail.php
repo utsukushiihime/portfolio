@@ -2,8 +2,8 @@
 
 	// site owner
 	$site_name = 'CrystalMcNeil.Tech';
-	$sender_domain = 'crystalmcneil.tech@gmail.com';
-	$to = 'crystalsmcneil@gmail.com';
+	$sender_domain = 'crystalmcneil.tech';
+	$to = 'crystalmcneil.tech@gmail.com';
 	
 	// contact form fields
 	$name = trim( $_POST['name'] );
